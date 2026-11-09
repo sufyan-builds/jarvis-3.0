@@ -1,0 +1,23 @@
+# --- Core (required) ---
+streamlit>=1.38.0
+streamlit-mic-recorder>=0.0.8
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+pyttsx3>=2.90
+psutil>=6.0.0
+requests>=2.32.0
+groq>=0.31.0
+python-dotenv>=1.0.1
+pyautogui>=0.9.54
+pyjokes>=0.6.0
+rich>=13.7.0
+
+# --- Optional (nice-to-have, project works fine without them) ---
+# Local screen brightness control. Without it, "set brightness" will just
+# print a friendly message telling you how to install it.
+screen-brightness-control>=0.22.0
+
+# Faster, offline speech recognition. Only used if USE_FASTER_WHISPER=true
+# in your .env file. Without it, Jarvis automatically uses Google's free
+# online speech recognition instead -- no extra setup required.
+# faster-whisper>=1.0.0

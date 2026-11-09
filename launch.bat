@@ -1,0 +1,1 @@
+cmd /k "cd /d "%~dp0" && title J.A.R.V.I.S. Launcher && color 0A && echo Current Folder: %CD% && if exist .venv\Scripts\activate.bat (call .venv\Scripts\activate.bat) else (echo Virtual environment not found, using global Python...) && python jarvis.py"
